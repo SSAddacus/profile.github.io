@@ -1,0 +1,70 @@
+
+    header{
+        text-align: center;
+        background-color: black;
+        Color: White;
+    }
+    #btn1 button{
+        position: Fixed;
+        background-color: aqua;
+        border: 1px aqua;
+        color:black;
+        padding: 10px 24px;
+        float: left;
+        Width: 33.3%;
+    }
+
+    #bt1:after{
+        Clear: both;
+        display: Table;   
+    }
+   
+    #btn1 button:hover {
+        background-color: teal;
+    }
+    #btn1 button:Active {
+        background-color: white;
+    }
+
+
+    #btn2 button{
+        position: Fixed;
+        margin-left:33.3%; 
+        background-color: aqua;
+        border: 1px aqua;
+        color:black;
+        padding: 10px 24px;
+        float: left;
+        Width: 33.3%;
+    }
+
+    #bt2.after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn2 button:hover {
+        background-color: teal;
+    }
+    #btn3 button{
+        position: Fixed;
+        margin-left:66.6%; 
+        background-color: aqua;
+        border: 1px aqua;
+        color:black;
+        padding: 10px 24px;
+        float: Left;
+        Width: 33.3%;
+    }
+
+    #bt3:after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn3 button:hover {
+        background-color: teal;
+    }
+
+    Article{
+        margin-top: 5%;
+        
+    }
