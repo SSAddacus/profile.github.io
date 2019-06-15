@@ -64,7 +64,71 @@
         background-color: teal;
     }
 
+    #btn4 button{
+        position: Fixed;
+        background-color: rgb(67, 230, 108);
+        border: 10px, rgb(14, 15, 15);
+        color: #444;
+        padding: 10px 24px;
+        float: Left;
+        Width: 33.3%;
+        height: 25%;
+    }
+
+    #bt4:after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn4 button:hover {
+        background-color: teal;
+    }
+
+    #btn5 button{
+        position: Fixed;
+        margin-left:33.3%; 
+        background-color: rgb(67, 230, 108);
+        border: 10px, rgb(14, 15, 15);
+        color:#444;
+        padding: 10px 24px;
+        float: Left;
+        Width: 33.3%;
+        height: 25%;
+
+    }
+
+    #bt5:after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn5 button:hover {
+        background-color: teal;
+    }
+
+    #btn6 button{
+        position: Fixed;
+        margin-left: 66.6%; 
+        background-color: rgb(67, 230, 108);
+        border: 10px, rgb(14, 15, 15);
+        color: #444;
+        padding: 10px 24px;
+        float: Left;
+        Width: 33.3%;
+        height: 25%;
+
+    }
+
+    #bt6:after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn6 button:hover {
+        background-color: teal;
+    }
+
     Article{
         margin-top: 5%;
         
+    }
+    Picture{
+        box-align: Right;
     }
