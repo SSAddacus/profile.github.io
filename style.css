@@ -3,6 +3,7 @@
         text-align: center;
         background-color: black;
         Color: White;
+        Width: 100%;
     }
     #btn1 button{
         position: Fixed;
@@ -53,7 +54,7 @@
         color:black;
         padding: 10px 24px;
         float: Left;
-        Width: 33.3%;
+        Width: 33%;
     }
 
     #bt3:after{
@@ -71,8 +72,8 @@
         color: #444;
         padding: 10px 24px;
         float: Left;
-        Width: 33.3%;
-        height: 25%;
+        Width: 20%;
+        height: 20%;
     }
 
     #bt4:after{
@@ -80,19 +81,19 @@
         display: Table;   
     }
     #btn4 button:hover {
-        background-color: teal;
+        background-color: rgb(86, 26, 228);
     }
 
     #btn5 button{
         position: Fixed;
-        margin-left:33.3%; 
+        margin-left: 25%; 
         background-color: rgb(67, 230, 108);
         border: 10px, rgb(14, 15, 15);
         color:#444;
         padding: 10px 24px;
         float: Left;
-        Width: 33.3%;
-        height: 25%;
+        Width: 20%;
+        height: 20%;
 
     }
 
@@ -101,19 +102,20 @@
         display: Table;   
     }
     #btn5 button:hover {
-        background-color: teal;
+        background-color: rgb(86, 26, 228);
+        color: aliceblue;
     }
 
     #btn6 button{
         position: Fixed;
-        margin-left: 66.6%; 
+        margin-left: 50%; 
         background-color: rgb(67, 230, 108);
         border: 10px, rgb(14, 15, 15);
         color: #444;
         padding: 10px 24px;
         float: Left;
-        Width: 33.3%;
-        height: 25%;
+        Width: 20%;
+        height: 20%;
 
     }
 
@@ -122,9 +124,28 @@
         display: Table;   
     }
     #btn6 button:hover {
-        background-color: teal;
+        background-color: rgb(86, 26, 228);
+    }
+    #btn7 button{
+        position: Fixed;
+        margin-left: 75%; 
+        background-color: rgb(67, 230, 108);
+        border: 10px, rgb(14, 15, 15);
+        color: #444;
+        padding: 10px 24px;
+        float: Left;
+        Width: 20%;
+        height: 20%;
+
     }
 
+    #bt7:after{
+        Clear: both;
+        display: Table;   
+    }
+    #btn7 button:hover {
+        background-color: rgb(86, 26, 228);
+    }
     Article{
         margin-top: 5%;
         
