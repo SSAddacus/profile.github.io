@@ -146,10 +146,46 @@
     #btn7 button:hover {
         background-color: rgb(86, 26, 228);
     }
-    Article{
-        margin-top: 5%;
+    #Article{
+        margin-top: 15%;
+        box-align: left;
         
     }
     Picture{
         box-align: Right;
     }
+   
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid grey;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: whitesmoke;
+        padding: 10px;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
