@@ -1,151 +1,4 @@
 
-    header{
-        text-align: center;
-        background-color: black;
-        Color: White;
-        Width: 100%;
-    }
-    #btn1 button{
-        position: Fixed;
-        background-color: aqua;
-        border: 1px aqua;
-        color:black;
-        padding: 10px 24px;
-        float: left;
-        Width: 33.3%;
-    }
-
-    #bt1:after{
-        Clear: both;
-        display: Table;   
-    }
-   
-    #btn1 button:hover {
-        background-color: teal;
-    }
-    #btn1 button:Active {
-        background-color: white;
-    }
-
-
-    #btn2 button{
-        position: Fixed;
-        margin-left:33.3%; 
-        background-color: aqua;
-        border: 1px aqua;
-        color:black;
-        padding: 10px 24px;
-        float: left;
-        Width: 33.3%;
-    }
-
-    #bt2.after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn2 button:hover {
-        background-color: teal;
-    }
-    #btn3 button{
-        position: Fixed;
-        margin-left:66.6%; 
-        background-color: aqua;
-        border: 1px aqua;
-        color:black;
-        padding: 10px 24px;
-        float: Left;
-        Width: 33%;
-    }
-
-    #bt3:after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn3 button:hover {
-        background-color: teal;
-    }
-
-    #btn4 button{
-        position: Fixed;
-        background-color: rgb(67, 230, 108);
-        border: 10px, rgb(14, 15, 15);
-        color: #444;
-        padding: 10px 24px;
-        float: Left;
-        Width: 20%;
-        height: 20%;
-    }
-
-    #bt4:after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn4 button:hover {
-        background-color: rgb(86, 26, 228);
-    }
-
-    #btn5 button{
-        position: Fixed;
-        margin-left: 25%; 
-        background-color: rgb(67, 230, 108);
-        border: 10px, rgb(14, 15, 15);
-        color:#444;
-        padding: 10px 24px;
-        float: Left;
-        Width: 20%;
-        height: 20%;
-
-    }
-
-    #bt5:after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn5 button:hover {
-        background-color: rgb(86, 26, 228);
-        color: aliceblue;
-    }
-
-    #btn6 button{
-        position: Fixed;
-        margin-left: 50%; 
-        background-color: rgb(67, 230, 108);
-        border: 10px, rgb(14, 15, 15);
-        color: #444;
-        padding: 10px 24px;
-        float: Left;
-        Width: 20%;
-        height: 20%;
-
-    }
-
-    #bt6:after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn6 button:hover {
-        background-color: rgb(86, 26, 228);
-    }
-    #btn7 button{
-        position: Fixed;
-        margin-left: 75%; 
-        background-color: rgb(67, 230, 108);
-        border: 10px, rgb(14, 15, 15);
-        color: #444;
-        padding: 10px 24px;
-        float: Left;
-        Width: 20%;
-        height: 20%;
-
-    }
-
-    #bt7:after{
-        Clear: both;
-        display: Table;   
-    }
-    #btn7 button:hover {
-        background-color: rgb(86, 26, 228);
-    }
     #Article{
         margin-top: 15%;
         box-align: left;
@@ -170,7 +23,7 @@
         padding: 10px;
       }
       
-      .column {
+      /* .column {
         float: left;
         width: 50%;
         margin-top: 6px;
@@ -180,12 +33,18 @@
       .row:after {
         content: "";
         display: table;
-        clear: both;
-      }
+        clear: both; */
+      /* } */
       
+    
       @media screen and (max-width: 600px) {
         .column, input[type=submit] {
           width: 100%;
           margin-top: 0;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
         }
       }
